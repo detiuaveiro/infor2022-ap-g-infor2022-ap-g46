@@ -107,47 +107,56 @@ Com a realização deste trabalho, espera-se dar a conhecer ao leitor a função
 
 
 \chapter{Conceitos básicos sobre um processador}
-\label{chap.metodologia}
-
-....................................................................
-....................................................................
-....................................................................
-
+\label{chap.Conceitos básicos sobre um processador}
 \section{O funcionamento geral de um processador}
 
 \subsection{Qual a verdadeira função de uma CPU?}
 ...................................................................
-...................................................................
-...................................................................
 
 \subsection{Arquitetura atual de um processador}
-...................................................................
-...................................................................
 ...................................................................
 
 \subsection{O desempenho de um processador}
 ...................................................................
-...................................................................
-...................................................................
 
 \section{Aplicações atuais}
+...................................................................
+
+
+
 
 \chapter{Evolução da CPU}
-
+\label{chap.Evolução da CPU}
 \section{História e criação dos processadores}
-
+...................................................................
 \section{Poder e velocidade de um processador atualmente}
+...................................................................
+
+
 
 \chapter{Diferenças entre processadores}
-
+\label{chap.Diferenças entre processadores}
+\section{Diferentes tipos de processadores}
+...................................................................
 \section{Aspetos (técnicos) positivos e negativos entre diferentes marcas}
+...................................................................
+
+
+
 
 \chapter{Custo de produção associado à utilização de energia}
-\label{chap.analise}
-Analisa os resultados.
+\label{chap.Custo de produção associado à utilização de energia}
+...................................................................
+
+
+
 
 \chapter{O futuro e os microprocessadores}
---------
+\label{chap.O futuro e os microprocessadores}
+...................................................................
+
+
+
 
 \chapter{Conclusões}
 \label{chap.conclusao}
@@ -165,12 +174,12 @@ por exemplo AS para António Silva.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter*{Acrónimos}
+
 \begin{acronym}
+
 \acro{ac}[AC]{António Caetano}
 \acro{ll}[LL]{Leonardo Luís}
-\acro{ua}[UA]{Universidade de Aveiro}
-\acro{leci}[LECI]{Licenciatura em Engenharia de Computadores e Informática}
-\acro{glisc}[GLISC]{Grey Literature International Steering Committee}
+
 \end{acronym}
 
 

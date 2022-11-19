@@ -1,0 +1,180 @@
+\documentclass{report}
+\usepackage[T1]{fontenc} % Fontes T1
+\usepackage[utf8]{inputenc} % Input UTF8
+\usepackage[backend=biber, style=ieee]{biblatex} % para usar bibliografia
+\usepackage{csquotes}
+\usepackage[portuguese]{babel} %Usar língua portuguesa
+\usepackage{blindtext} % Gerar texto automaticamente
+\usepackage[printonlyused]{acronym}
+\usepackage{hyperref} % para autoref
+\usepackage{graphicx}
+\usepackage{indentfirst}
+
+\bibliography{bibliografia}
+
+
+\begin{document}
+%%
+% Definições
+%
+\def\titulo{Evolução dos Processadores}
+\def\data{DATA}
+\def\autores{António Caetano, Leonardo Luís}
+\def\autorescontactos{(114094) antonio.caetano@ua.pt, (114093) leonardo.luis@ua.pt}
+\def\versao{VERSAO}
+\def\departamento{Dept. de Eletrónica, Telecomunicações e Informática}
+\def\empresa{Universidade de Aveiro}
+\def\logotipo{ua.pdf}
+%
+%%%%%% CAPA %%%%%%
+%
+\begin{titlepage}
+
+\begin{center}
+%
+\vspace*{50mm}
+%
+{\Huge \titulo}\\ 
+%
+\vspace{10mm}
+%
+{\Large \empresa}\\
+%
+\vspace{10mm}
+%
+{\LARGE \autores}\\ 
+%
+\vspace{30mm}
+%
+\begin{figure}[h]
+\center
+\includegraphics{\logotipo}
+\end{figure}
+%
+\vspace{30mm}
+\end{center}
+%
+\begin{flushright}
+\versao
+\end{flushright}
+\end{titlepage}
+
+%%  Página de Título %%
+\title{%
+{\Huge\textbf{\titulo}}\\
+{\Large \departamento\\ \empresa}
+}
+%
+\author{%
+    \autores \\
+    \autorescontactos
+}
+%
+\date{\today}
+%
+\maketitle
+
+\pagenumbering{roman}
+
+%%%%%% RESUMO %%%%%%
+\begin{abstract}
+Resumo de 200-300 palavras.
+\end{abstract}
+
+%%%%%% Agradecimentos %%%%%%
+% Segundo glisc deveria aparecer após conclusão...
+\renewcommand{\abstractname}{Agradecimentos}
+\begin{abstract}
+Eventuais agradecimentos.
+Comentar bloco caso não existam agradecimentos a fazer.
+\end{abstract}
+
+
+\tableofcontents
+% \listoftables     % descomentar se necessário
+% \listoffigures    % descomentar se necessário
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearpage
+\pagenumbering{arabic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introdução}
+\label{chap.introducao}
+Em pleno século XXI, a palavra “processador” é bastante conhecida pela maioria da população, no entanto, este termo é bastante confundido sem se saber realmente o que significa. A Unidade Central de Processamento, também conhecido como CPU (sigla de Central Processing Unit), é o principal componente de hardware de um sistema computacional. De facto, é o processador que é responsável na realização de instruções pelo utilizador, sendo capaz de executar operações aritméticas e lógicas de forma a executar determinados programas num computador. De um modo geral, podemos comparar este componente à função de um cérebro, que é capaz de processar inúmeras tarefas dentro de um sistema computacional.
+Com a realização deste trabalho, espera-se dar a conhecer ao leitor a função e a importância da CPU, os seus conceitos básicos, exemplos de grandes marcas de processadores e as suas diferenças positivas e negativas, bem como a evolução histórica deste componente e o futuro dos processadores e microprocessadores.
+
+
+\chapter{Conceitos básicos sobre um processador}
+\label{chap.metodologia}
+
+....................................................................
+....................................................................
+....................................................................
+
+\section{O funcionamento geral de um processador}
+
+\subsection{Qual a verdadeira função de uma CPU?}
+...................................................................
+...................................................................
+...................................................................
+
+\subsection{Arquitetura atual de um processador}
+...................................................................
+...................................................................
+...................................................................
+
+\subsection{O desempenho de um processador}
+...................................................................
+...................................................................
+...................................................................
+
+\section{Aplicações atuais}
+
+\chapter{Evolução da CPU}
+
+\section{História e criação dos processadores}
+
+\section{Poder e velocidade de um processador atualmente}
+
+\chapter{Diferenças entre processadores}
+
+\section{Aspetos (técnicos) positivos e negativos entre diferentes marcas}
+
+\chapter{Custo de produção associado à utilização de energia}
+\label{chap.analise}
+Analisa os resultados.
+
+\chapter{O futuro e os microprocessadores}
+--------
+
+\chapter{Conclusões}
+\label{chap.conclusao}
+Apresenta conclusões.
+
+\chapter*{Contribuições dos autores}
+Resumir aqui o que cada autor fez no trabalho.
+Usar abreviaturas para identificar os autores,
+por exemplo AS para António Silva.
+
+\vspace{10pt}
+\textbf{Indicar a percentagem de contribuição de cada autor.}\\
+
+\autores : xx\%, yy\%\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Acrónimos}
+\begin{acronym}
+\acro{ac}[AC]{António Caetano}
+\acro{ll}[LL]{Leonardo Luís}
+\acro{ua}[UA]{Universidade de Aveiro}
+\acro{leci}[LECI]{Licenciatura em Engenharia de Computadores e Informática}
+\acro{glisc}[GLISC]{Grey Literature International Steering Committee}
+\end{acronym}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\printbibliography
+
+\end{document}
